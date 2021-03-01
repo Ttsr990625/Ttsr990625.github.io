@@ -1532,7 +1532,7 @@ gdjs.copyArray(runtimeScene.getObjects("bosszidan"), gdjs.boss1Code.GDbosszidanO
 
 gdjs.boss1Code.condition0IsTrue_0.val = false;
 {
-gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
+gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "q");
 }if (gdjs.boss1Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
 }}
