@@ -1304,13 +1304,25 @@ gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.boss1Code.GDPlayerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.boss1Code.GDPlayerHitBoxObjects1);
 gdjs.copyArray(runtimeScene.getObjects("bosszidan"), gdjs.boss1Code.GDbosszidanObjects1);
 
 gdjs.boss1Code.condition0IsTrue_0.val = false;
+gdjs.boss1Code.condition1IsTrue_0.val = false;
 {
 gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerHitBoxObjects1Objects, gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects, false, runtimeScene, false);
-}if (gdjs.boss1Code.condition0IsTrue_0.val) {
+}if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.boss1Code.GDPlayerObjects1.length;i<l;++i) {
+    if ( gdjs.boss1Code.GDPlayerObjects1[i].getVariableNumber(gdjs.boss1Code.GDPlayerObjects1[i].getVariables().getFromIndex(1)) == 0 ) {
+        gdjs.boss1Code.condition1IsTrue_0.val = true;
+        gdjs.boss1Code.GDPlayerObjects1[k] = gdjs.boss1Code.GDPlayerObjects1[i];
+        ++k;
+    }
+}
+gdjs.boss1Code.GDPlayerObjects1.length = k;}}
+if (gdjs.boss1Code.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(3).setNumber(1);
 }}
 
@@ -1530,12 +1542,8 @@ gdjs.copyArray(runtimeScene.getObjects("bosszidan"), gdjs.boss1Code.GDbosszidanO
 {
 
 
-gdjs.boss1Code.condition0IsTrue_0.val = false;
 {
-gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "q");
-}if (gdjs.boss1Code.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
-}}
+}
 
 }
 
@@ -1707,6 +1715,22 @@ gdjs.copyArray(runtimeScene.getObjects("tips"), gdjs.boss1Code.GDtipsObjects1);
 }
 }{for(var i = 0, len = gdjs.boss1Code.GDtipsObjects1.length ;i < len;++i) {
     gdjs.boss1Code.GDtipsObjects1[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.boss1Code.condition0IsTrue_0.val = false;
+{
+gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "g");
+}if (gdjs.boss1Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.boss1Code.GDPlayerObjects1);
+{for(var i = 0, len = gdjs.boss1Code.GDPlayerObjects1.length ;i < len;++i) {
+    gdjs.boss1Code.GDPlayerObjects1[i].returnVariable(gdjs.boss1Code.GDPlayerObjects1[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }}
 
