@@ -201,6 +201,9 @@ gdjs.boss1Code.GDGoal4Objects3= [];
 gdjs.boss1Code.GDNewObject4Objects1= [];
 gdjs.boss1Code.GDNewObject4Objects2= [];
 gdjs.boss1Code.GDNewObject4Objects3= [];
+gdjs.boss1Code.GDGoal5Objects1= [];
+gdjs.boss1Code.GDGoal5Objects2= [];
+gdjs.boss1Code.GDGoal5Objects3= [];
 
 gdjs.boss1Code.conditionTrue_0 = {val:false};
 gdjs.boss1Code.condition0IsTrue_0 = {val:false};
@@ -222,7 +225,7 @@ gdjs.boss1Code.eventsList0 = function(runtimeScene) {
 gdjs.boss1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition0IsTrue_0;
-gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10314492);
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8251284);
 }
 }if (gdjs.boss1Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -645,7 +648,7 @@ gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition1IsTrue_0;
-gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9770044);
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8697012);
 }
 }}
 if (gdjs.boss1Code.condition1IsTrue_0.val) {
@@ -667,7 +670,7 @@ gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition1IsTrue_0;
-gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7882588);
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9770044);
 }
 }}
 if (gdjs.boss1Code.condition1IsTrue_0.val) {
@@ -835,7 +838,48 @@ gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }
 
 
-};gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPRO2Objects1Objects = Hashtable.newFrom({"PRO2": gdjs.boss1Code.GDPRO2Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDcheckpoint3Objects1Objects = Hashtable.newFrom({"checkpoint3": gdjs.boss1Code.GDcheckpoint3Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro3Objects1Objects = Hashtable.newFrom({"pro3": gdjs.boss1Code.GDpro3Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDBoss2Objects1Objects = Hashtable.newFrom({"Boss2": gdjs.boss1Code.GDBoss2Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDzidanObjects1Objects = Hashtable.newFrom({"zidan": gdjs.boss1Code.GDzidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro4Objects1Objects = Hashtable.newFrom({"pro4": gdjs.boss1Code.GDpro4Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDGoal4Objects1Objects = Hashtable.newFrom({"Goal4": gdjs.boss1Code.GDGoal4Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDBlackSpaceObjects1Objects = Hashtable.newFrom({"BlackSpace": gdjs.boss1Code.GDBlackSpaceObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.boss1Code.GDPlayerHitBoxObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDBoss2Objects1Objects = Hashtable.newFrom({"Boss2": gdjs.boss1Code.GDBoss2Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro4Objects1Objects = Hashtable.newFrom({"pro4": gdjs.boss1Code.GDpro4Objects1});gdjs.boss1Code.eventsList12 = function(runtimeScene) {
+};gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPRO2Objects1Objects = Hashtable.newFrom({"PRO2": gdjs.boss1Code.GDPRO2Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDcheckpoint3Objects1Objects = Hashtable.newFrom({"checkpoint3": gdjs.boss1Code.GDcheckpoint3Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro3Objects1Objects = Hashtable.newFrom({"pro3": gdjs.boss1Code.GDpro3Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDBoss2Objects1Objects = Hashtable.newFrom({"Boss2": gdjs.boss1Code.GDBoss2Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDzidanObjects1Objects = Hashtable.newFrom({"zidan": gdjs.boss1Code.GDzidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDGoal4Objects1Objects = Hashtable.newFrom({"Goal4": gdjs.boss1Code.GDGoal4Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro4Objects1Objects = Hashtable.newFrom({"pro4": gdjs.boss1Code.GDpro4Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDGoal5Objects2Objects = Hashtable.newFrom({"Goal5": gdjs.boss1Code.GDGoal5Objects2});gdjs.boss1Code.eventsList12 = function(runtimeScene) {
+
+{
+
+
+gdjs.boss1Code.condition0IsTrue_0.val = false;
+gdjs.boss1Code.condition1IsTrue_0.val = false;
+{
+gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 0;
+}if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
+{
+{gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition1IsTrue_0;
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9723052);
+}
+}}
+if (gdjs.boss1Code.condition1IsTrue_0.val) {
+gdjs.boss1Code.GDGoal5Objects2.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDGoal5Objects2Objects, 9892, 375, "");
+}{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
+}{for(var i = 0, len = gdjs.boss1Code.GDGoal5Objects2.length ;i < len;++i) {
+    gdjs.boss1Code.GDGoal5Objects2[i].resetTimer("shijian");
+}
+}}
+
+}
+
+
+{
+
+
+{
+/* Reuse gdjs.boss1Code.GDBoss2Objects1 */
+{for(var i = 0, len = gdjs.boss1Code.GDBoss2Objects1.length ;i < len;++i) {
+    gdjs.boss1Code.GDBoss2Objects1[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+};gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDbosszidanObjects1Objects = Hashtable.newFrom({"bosszidan": gdjs.boss1Code.GDbosszidanObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDBlackSpaceObjects1Objects = Hashtable.newFrom({"BlackSpace": gdjs.boss1Code.GDBlackSpaceObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.boss1Code.GDPlayerHitBoxObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDBoss2Objects1Objects = Hashtable.newFrom({"Boss2": gdjs.boss1Code.GDBoss2Objects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.boss1Code.GDPlayerObjects1});gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro4Objects1Objects = Hashtable.newFrom({"pro4": gdjs.boss1Code.GDpro4Objects1});gdjs.boss1Code.eventsList13 = function(runtimeScene) {
 
 {
 
@@ -848,7 +892,6 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.boss1Code.GDPlayerH
 {for(var i = 0, len = gdjs.boss1Code.GDPlayerHitBoxObjects1.length ;i < len;++i) {
     gdjs.boss1Code.GDPlayerHitBoxObjects1[i].hide();
 }
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Linked Horizon - 心臓を捧げよ! (献出心脏！).mp3", 1, false, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)), 1);
 }}
 
 }
@@ -2136,7 +2179,7 @@ gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition1IsTrue_0;
-gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10310468);
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9159156);
 }
 }}
 if (gdjs.boss1Code.condition1IsTrue_0.val) {
@@ -2258,7 +2301,7 @@ gdjs.boss1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition1IsTrue_0;
-gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8143276);
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10698196);
 }
 }}
 if (gdjs.boss1Code.condition1IsTrue_0.val) {
@@ -2383,23 +2426,10 @@ for(var i = 0, k = 0, l = gdjs.boss1Code.GDBoss2Objects1.length;i<l;++i) {
 }
 gdjs.boss1Code.GDBoss2Objects1.length = k;}if (gdjs.boss1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("BlackSpace"), gdjs.boss1Code.GDBlackSpaceObjects1);
-/* Reuse gdjs.boss1Code.GDBoss2Objects1 */
 gdjs.boss1Code.GDGoal4Objects1.length = 0;
-
-gdjs.boss1Code.GDpro4Objects1.length = 0;
 
 {for(var i = 0, len = gdjs.boss1Code.GDBlackSpaceObjects1.length ;i < len;++i) {
     gdjs.boss1Code.GDBlackSpaceObjects1[i].deleteFromScene(runtimeScene);
-}
-}{for(var i = 0, len = gdjs.boss1Code.GDBoss2Objects1.length ;i < len;++i) {
-    gdjs.boss1Code.GDBoss2Objects1[i].deleteFromScene(runtimeScene);
-}
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro4Objects1Objects, 9997, 160, "");
-}{for(var i = 0, len = gdjs.boss1Code.GDpro4Objects1.length ;i < len;++i) {
-    gdjs.boss1Code.GDpro4Objects1[i].setWidth(110);
-}
-}{for(var i = 0, len = gdjs.boss1Code.GDpro4Objects1.length ;i < len;++i) {
-    gdjs.boss1Code.GDpro4Objects1[i].setHeight(100);
 }
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDGoal4Objects1Objects, 9997, 160, "");
 }{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -2407,6 +2437,46 @@ gdjs.boss1Code.GDpro4Objects1.length = 0;
     gdjs.boss1Code.GDGoal4Objects1[i].resetTimer("shijian");
 }
 }}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Boss2"), gdjs.boss1Code.GDBoss2Objects1);
+
+gdjs.boss1Code.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.boss1Code.GDBoss2Objects1.length;i<l;++i) {
+    if ( gdjs.boss1Code.GDBoss2Objects1[i].getVariableNumber(gdjs.boss1Code.GDBoss2Objects1[i].getVariables().getFromIndex(0)) == 0 ) {
+        gdjs.boss1Code.condition0IsTrue_0.val = true;
+        gdjs.boss1Code.GDBoss2Objects1[k] = gdjs.boss1Code.GDBoss2Objects1[i];
+        ++k;
+    }
+}
+gdjs.boss1Code.GDBoss2Objects1.length = k;}if (gdjs.boss1Code.condition0IsTrue_0.val) {
+gdjs.boss1Code.GDpro4Objects1.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.boss1Code.mapOfGDgdjs_46boss1Code_46GDpro4Objects1Objects, 9997, 160, "");
+}{for(var i = 0, len = gdjs.boss1Code.GDpro4Objects1.length ;i < len;++i) {
+    gdjs.boss1Code.GDpro4Objects1[i].setHeight(100);
+}
+}{for(var i = 0, len = gdjs.boss1Code.GDpro4Objects1.length ;i < len;++i) {
+    gdjs.boss1Code.GDpro4Objects1[i].setWidth(110);
+}
+}
+{ //Subevents
+gdjs.boss1Code.eventsList12(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -2428,6 +2498,29 @@ gdjs.boss1Code.GDGoal4Objects1.length = k;}if (gdjs.boss1Code.condition0IsTrue_0
 /* Reuse gdjs.boss1Code.GDGoal4Objects1 */
 {for(var i = 0, len = gdjs.boss1Code.GDGoal4Objects1.length ;i < len;++i) {
     gdjs.boss1Code.GDGoal4Objects1[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Goal5"), gdjs.boss1Code.GDGoal5Objects1);
+
+gdjs.boss1Code.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.boss1Code.GDGoal5Objects1.length;i<l;++i) {
+    if ( gdjs.boss1Code.GDGoal5Objects1[i].timerElapsedTime("shijian", 5) ) {
+        gdjs.boss1Code.condition0IsTrue_0.val = true;
+        gdjs.boss1Code.GDGoal5Objects1[k] = gdjs.boss1Code.GDGoal5Objects1[i];
+        ++k;
+    }
+}
+gdjs.boss1Code.GDGoal5Objects1.length = k;}if (gdjs.boss1Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.boss1Code.GDGoal5Objects1 */
+{for(var i = 0, len = gdjs.boss1Code.GDGoal5Objects1.length ;i < len;++i) {
+    gdjs.boss1Code.GDGoal5Objects1[i].deleteFromScene(runtimeScene);
 }
 }}
 
@@ -2492,7 +2585,7 @@ for(var i = 0, k = 0, l = gdjs.boss1Code.GDBoss2Objects1.length;i<l;++i) {
 gdjs.boss1Code.GDBoss2Objects1.length = k;}if ( gdjs.boss1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.boss1Code.conditionTrue_1 = gdjs.boss1Code.condition1IsTrue_0;
-gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10310636);
+gdjs.boss1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10302484);
 }
 }}
 if (gdjs.boss1Code.condition1IsTrue_0.val) {
@@ -2772,8 +2865,11 @@ gdjs.boss1Code.GDGoal4Objects3.length = 0;
 gdjs.boss1Code.GDNewObject4Objects1.length = 0;
 gdjs.boss1Code.GDNewObject4Objects2.length = 0;
 gdjs.boss1Code.GDNewObject4Objects3.length = 0;
+gdjs.boss1Code.GDGoal5Objects1.length = 0;
+gdjs.boss1Code.GDGoal5Objects2.length = 0;
+gdjs.boss1Code.GDGoal5Objects3.length = 0;
 
-gdjs.boss1Code.eventsList12(runtimeScene);
+gdjs.boss1Code.eventsList13(runtimeScene);
 return;
 
 }

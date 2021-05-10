@@ -54,7 +54,7 @@ gdjs.copyArray(runtimeScene.getObjects("Goal"), gdjs.tongguanCode.GDGoalObjects1
 gdjs.copyArray(runtimeScene.getObjects("death"), gdjs.tongguanCode.GDdeathObjects1);
 gdjs.copyArray(runtimeScene.getObjects("time"), gdjs.tongguanCode.GDtimeObjects1);
 {for(var i = 0, len = gdjs.tongguanCode.GDGoalObjects1.length ;i < len;++i) {
-    gdjs.tongguanCode.GDGoalObjects1[i].setString("achievement : " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)) + "/4");
+    gdjs.tongguanCode.GDGoalObjects1[i].setString("achievement : " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)) + "/5");
 }
 }{for(var i = 0, len = gdjs.tongguanCode.GDtimeObjects1.length ;i < len;++i) {
     gdjs.tongguanCode.GDtimeObjects1[i].setString("Your Time(s) : " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(7)));
